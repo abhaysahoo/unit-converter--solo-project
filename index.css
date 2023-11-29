@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    text-align: center;
+    background: #F4F4F4;
+}
+
+h1 {
+    color: white;
+}
+
+h4 {
+    color: #5A537B;
+    margin: 8px 0 5px 0;
+}
+
+p {
+    color: #353535;
+    margin: 8px 0 5px 0;
+}
+
+#input-container {
+    background: #6943FF;
+    padding: 20px 0px;
+}
+
+#convert-btn {
+    display: block;
+    width: 128px;
+    margin: 20px auto;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    color: #3D3D3D;
+    background: #FFFFFF; 
+}
+
+#input-field {
+    width: 120px;
+    height: 80px;
+    text-align: center;
+    font-size: 60px;
+    background: #6943FF;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin: 20px 0px 5px 0px;
+}
+
+#input-field::placeholder, :focus {
+    color: white;
+    outline: none;
+}
+
+.display {
+    background: white;
+    margin: 20px auto;
+    width: 90%;
+    padding: 15px 0px;
+}
